@@ -118,11 +118,12 @@
 
 # Acima de 30 → “Quente”
 
-temperatura = float(input("Digite a temperatura em graus Celsius: "))
+# temperatura = float(input("Digite a temperatura em graus Celsius: "))
 
-if temperatura < 0:
-    print("Congelante")
-elif 0<= temperatura <= 30:
-    print("Agradavel")
-else:
-    print("Quente")
+# if temperatura < 0:
+#     print("Congelante")
+# elif 0<= temperatura <= 30:
+#     print("Agradavel")
+# else:
+#     print("Quente")
+

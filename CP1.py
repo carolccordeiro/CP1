@@ -9,6 +9,9 @@
 # else:
 #     print("Zero")
 
+
+
+
 #2. Par ou ímpar
 #Receba um número inteiro e verifique se ele é par ou ímpar.
 
@@ -17,6 +20,9 @@
 #     print("par")
 # else:
 #     print("impar")
+
+
+
 
 # 3. Maioridade
 # Solicite a idade de uma pessoa e mostre se ela é maior de idade (18 anos ou mais) ou menor de idade.
@@ -28,6 +34,9 @@
 # else:
 #     print("Menor de idade")
 
+
+
+
 # 4. Nota de aprovação
 # Receba a nota de um aluno (0 a 10) e diga se ele foi aprovado (nota ≥ 6) ou reprovado.
 
@@ -37,6 +46,9 @@
 
 # else:
 #     print("Reprovado")
+
+
+
 
 # 5. Comparação de dois números
 # Peça dois números inteiros e informe qual deles é maior ou se são iguais.
@@ -51,6 +63,8 @@
 # else:
 #     print("Os números são iguais")
 
+
+
 # 6. Desconto em produto
 # Receba o valor de um produto e mostre o preço final com desconto de 10% se o valor for maior que 100; caso contrário, mostre o preço sem desconto.
 
@@ -62,13 +76,33 @@
 # else:
 #     print("Preço sem desconto é: ", valor)
 
+
+
 # 7. Login simples
 # Peça um nome de usuário e uma senha. Se o usuário for "admin" e a senha "1234", exiba “Acesso permitido”; caso contrário, “Acesso negado”.
 
-usuario = input("Digite o nome do usuário: ")
-senha = input("Digite a senha: ")
-if usuario == "admin" and senha == "1234":
-    print("Acesso permitido")
-else:
-    print("Acesso negado")
+# usuario = input("Digite o nome do usuário: ")
+# senha = input("Digite a senha: ")
+# if usuario == "admin" and senha == "1234":
+#     print("Acesso permitido")
+# else:
+#     print("Acesso negado")
 
+
+
+# 8. Par ou múltiplo de 5
+# Solicite um número inteiro e verifique:
+
+# Se ele é par, escreva “Par”.
+
+# Senão, se for múltiplo de 5, escreva “Múltiplo de 5”.
+
+# Caso contrário, escreva “Outro número”.
+
+# numero = int(input("Digite um numero inteiro: "))
+# if numero % 2 == 0:
+#     print("Par")
+# elif numero % 5 == 0:
+#     print("Múltiplo de 5")
+# else: 
+#     print("Outro número")

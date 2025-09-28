@@ -21,9 +21,32 @@
 # 3. Maioridade
 # Solicite a idade de uma pessoa e mostre se ela é maior de idade (18 anos ou mais) ou menor de idade.
 
-idade = int(input("Digite a sua idade: "))
+# idade = int(input("Digite a sua idade: "))
 
-if idade >= 18:
-    print("Maior de idade")
+# if idade >= 18:
+#     print("Maior de idade")
+# else:
+#     print("Menor de idade")
+
+# 4. Nota de aprovação
+# Receba a nota de um aluno (0 a 10) e diga se ele foi aprovado (nota ≥ 6) ou reprovado.
+
+# nota = int(input("Digite a nota do aluno (0 a 10): "))
+# if nota >= 6:
+#     print("Aprovado")
+
+# else:
+#     print("Reprovado")
+
+# 5. Comparação de dois números
+# Peça dois números inteiros e informe qual deles é maior ou se são iguais.
+
+primeiro = int(input("Digite o primeiro número inteiro: "))
+segundo = int(input("Digite o segundo número inteiro: "))
+
+if primeiro > segundo:
+    print("O primeiro número é maior")
+elif segundo > primeiro:
+    print("O segundo número é maior")
 else:
-    print("Menor de idade")
+    print("Os números são iguais")
